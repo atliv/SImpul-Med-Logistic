@@ -1,0 +1,3 @@
+# Disallow all user agents and crawlers
+User-agent: *
+Disallow: /

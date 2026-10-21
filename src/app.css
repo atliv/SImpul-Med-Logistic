@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-sans: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-feature-settings: 'tnum' 1, 'zero' 1;
+	caret-color: #10b981;
+}
+
+::selection {
+	background-color: rgba(16, 185, 129, 0.3);
+	color: #ecfdf5;
+}
+
+/* TUI Engineered Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #27272a;
+	border: 1px solid #18181b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3f3f46;
+}

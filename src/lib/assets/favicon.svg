@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Dark Charcoal Canvas -->
+  <rect width="64" height="64" fill="#09090b"/>
+  
+  <!-- Digital Logistics Speed Trails -->
+  <rect x="6" y="22" width="10" height="3" fill="#10b981"/>
+  <rect x="11" y="27" width="8" height="3" fill="#10b981"/>
+  <rect x="8" y="32" width="12" height="3" fill="#10b981"/>
+  <rect x="6" y="37" width="9" height="3" fill="#10b981"/>
+  
+  <!-- Truck Cargo Box -->
+  <path d="M20 22H42V42H21L19 40V23L20 22Z" fill="#10b981"/>
+  
+  <!-- Medical Cross Symbol -->
+  <path d="M29 27H33V30.5H36.5V34.5H33V38H29V34.5H25.5V30.5H29V27Z" fill="#09090b"/>
+  
+  <!-- Truck Cab -->
+  <path d="M43 25H49.5L56 34V42H43V25Z" fill="#10b981"/>
+  
+  <!-- Cab Windshield Glass -->
+  <polygon points="45,27 49,27 53.8,34 45,34" fill="#09090b"/>
+  
+  <!-- Left Wheel -->
+  <circle cx="27" cy="44" r="5" fill="#10b981"/>
+  <circle cx="27" cy="44" r="2.2" fill="#09090b"/>
+  
+  <!-- Right Wheel -->
+  <circle cx="49" cy="44" r="5" fill="#10b981"/>
+  <circle cx="49" cy="44" r="2.2" fill="#09090b"/>
+</svg>

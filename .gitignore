@@ -1,0 +1,41 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+.vscode
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# pnpm
+pnpm-debug.log*
+
+# IDE
+.idea
+*.swp
+*.swo
+*~
+
+# Project documentation (not part of the app)
+implementation-plan.md
+research.md
+readme.md
+README.md
+Simpul_Tech_Backend_Skill_Challenge.md
+change_log.md
